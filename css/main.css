@@ -1,0 +1,251 @@
+/*
+    TalentBoard Bootstrap Sass Theme
+    Author: Marco Gattello
+    Version: 0.0.1
+*/
+/* BASE - Base styles, variables, mixins, etc... */
+/* HTML */
+/* Login page */
+/* Font Colors*/
+/* MODULES - Individual site components */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* LAYOUTS - Page layout styles */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+  color: #F5F5F5;
+  background-color: #38C88A;
+}
+
+.info {
+  background-color: #2DA16E;
+  width: 250px;
+}
+
+.img_profile {
+  background-color: #2DA16E;
+  padding-top: 40px;
+}
+
+.img_profile img {
+  width: 110px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #38C88A;
+}
+
+.name_profile {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.name_profile h6 {
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.name_profile p {
+  font-size: 13px;
+  color: #DFDFDF;
+}
+
+.detail {
+  width: 250px;
+}
+
+.detail ul {
+  display: inline;
+}
+
+.detail ul li {
+  position: relative;
+  left: 30px;
+  font-size: 13px;
+  margin-bottom: 8px;
+  list-style-type: none;
+}
+
+.detail ul li div {
+  display: inline;
+}
+
+.no-dec {
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+.no-dec:hover {
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+.nav-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.languages {
+  padding-top: 70px;
+  width: 250px;
+  font-size: 13px;
+}
+
+.languages h6 {
+  position: relative;
+  left: 30px;
+  margin-bottom: 20px;
+}
+
+.languages div {
+  position: relative;
+  left: 30px;
+  margin-bottom: 8px;
+}
+
+.header {
+  margin-left: 250px;
+  padding: 20px 60px 70px 60px;
+  background-color: #FCFCFC;
+  color: #3C3C3C;
+  min-width: 900px;
+}
+
+.title .i-subtitle {
+  display: inline-block;
+}
+
+.title .i-subtitle i {
+  font-size: 30px;
+}
+
+.title .subtitle {
+  display: inline-block;
+}
+
+.title .subtitle h4 {
+  font-size: 30px;
+}
+
+.company {
+  margin-top: 15px;
+}
+
+.location {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.shadow {
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.exp {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.exp .location {
+  color: #C9C9C9;
+}
+
+.exp .date {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  text-align: right;
+  color: #C9C9C9;
+}
+
+.cer {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.cer .date {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  text-align: right;
+  color: #C9C9C9;
+}
+
+#show-more {
+  text-align: center;
+  font-size: 25px;
+  background-color: #DFDFDF;
+  border-radius: 5px;
+  color: #C9C9C9;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+#show-more:hover {
+  background-color: #C9C9C9;
+  color: #DFDFDF;
+  cursor: pointer;
+}
+
+.more {
+  display: none;
+}
+
+.list-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.list-skills div {
+  display: inline-block;
+}
+
+.list-skills div ul {
+  list-style: none;
+}
+
+.list-skills div ul .sub-li {
+  margin: 15px 0 15px 0;
+}
+/*# sourceMappingURL=main.css.map */
