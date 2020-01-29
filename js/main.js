@@ -18,7 +18,7 @@ $(function(){
     let text3 =`Mainly characters models from Warhammer 40k, if you ask me I will show you some pics. I am very proud of my miniatures/. \n\n`;
     let text4 =`In spite of my hobbies, I am a Gym-Guy (GG, if you got it you are funny!). I used to be a professional Cyclist in Italy and after I quit I decided to try Calisthenics. Do not ask me to do a flag in the office; I could be overconfident about it!\n\n`;
     let text5= `Photography: I have a DSLR Sony A7 at home that I like to bring with me outside. I'm not a PRO but I find photography interesting! \n\n`;
-    let text6 =`I used to play with my Grandfather. He teched me how to play. Since then I like to play it once a while! \n\n`;
+    let text6 =`I used to play with my Grandfather. He taught me how to play. Since then I like to play it once a while! \n\n`;
     
     // Bullet/title
     let value1 = 'Coding:';
